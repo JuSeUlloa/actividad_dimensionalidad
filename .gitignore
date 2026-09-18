@@ -1,0 +1,44 @@
+# Entornos virtuales de Python
+.venv/
+venv/
+env/
+bin/
+lib/
+include/
+pyvenv.cfg
+
+# Cachés y archivos compilados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Entornos y configuraciones locales
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+
+# Archivos generados por notebooks y herramientas
+.ipynb_checkpoints/
+.coverage
+htmlcov/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Artefactos de construcción y distribución
+build/
+dist/
+*.egg-info/
+
+# Resultados generados durante el análisis
+output/
+results/
+*.png
+*.jpg
+*.jpeg
